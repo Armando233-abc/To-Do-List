@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@1,100&display=swap');
 
 #title {
         text-align: center;
@@ -28,6 +29,12 @@
 .item_container {
         display: grid;
         grid-template-columns: 1.5fr 0.5fr;
+        margin-top: 10px;
+}
+
+.item_container li{
+        font-family: 'Caveat', cursive;
+        font-size: 30px;
 }
 
 #elimina_button {
