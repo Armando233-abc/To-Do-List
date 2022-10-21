@@ -17,11 +17,16 @@
                 </div>
                 <div id="input_container">
                         <input type="text" name="to_do_input" id="to_do_input">
-                        <button onclick="aggiungi()">Invia</button>
+                        <button onclick="aggiungi()" id="to_do_input_send">Invia</button>
                 </div>
 
                 <div id="to_do_list_container">
-                        <ol id="to_do_list"></ol>
+                        <ol id="to_do_list">
+                                <div class="item_container">
+                                        <li>example </li>
+                                        <button onclick="elimina()" id="elimina_button">X</button>
+                                </div>
+                        </ol>
                 </div>
         </div>
 </body>

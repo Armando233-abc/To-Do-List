@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+#title {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+}
+
+#input_container {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1.5fr 0.5fr;
+}
+
+#to_do_input {
+        border-radius: 100px;
+        height: 30px;
+}
+
+#to_do_input_send {
+        border-radius: 100px;
+        margin-left: 10%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+}
+
+.item_container {
+        display: grid;
+        grid-template-columns: 1.5fr 0.5fr;
+}
+
+#elimina_button {
+        width: 30px;
+        height: 30px;
+        margin-left: 10%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+}
